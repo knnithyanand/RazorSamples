@@ -1,6 +1,6 @@
 using System;
 
-namespace Knnithyanand.RazorSamples.ViewComponent.Basic.Models
+namespace Knnithyanand.RazorSamples.ViewComponentBasic.Models
 {
     public class ErrorViewModel
     {

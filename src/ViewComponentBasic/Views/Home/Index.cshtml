@@ -1,8 +1,49 @@
-﻿@{
+@addTagHelper *, ViewComponentBasic
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Form Fields</h1>
+<div class="row">
+    <div class="col-md">
+      <h2 class="">Bootstrap HTML</h2>
+      <hr/>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col-md">
+      <h2 class="">View Component</h2>
+      <hr/>
+      <form>
+        <vc:email-field id="exampleInputEmail1"
+                        label="Email Address"
+                        placeholder="user@example.com"
+                        hint="We'll never share your email with anyone else." />
+
+        <vc:password-field  id="exampleInputPassword1"
+                            label="Password"
+                            placeholder="Your secure password"/>
+
+        <vc:checkbox-field  id="exampleCheck1"
+                            label="Check me out" />
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+      </form>
+    </div>
+  </div>
 </div>
