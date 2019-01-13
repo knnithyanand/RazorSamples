@@ -11,7 +11,7 @@ namespace Knnithyanand.RazorSamples.ViewComponentBasic.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult License()
         {
             return View();
         }
