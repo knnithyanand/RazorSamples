@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
-using Knnithyanand.RazorSamples.ViewComponent.Basic.Models;
+using Knnithyanand.RazorSamples.ViewComponentBasic.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Knnithyanand.RazorSamples.ViewComponent.Basic.Controllers
+namespace Knnithyanand.RazorSamples.ViewComponentBasic.Controllers
 {
     public class HomeController : Controller
     {
