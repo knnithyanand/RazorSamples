@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Knnithyanand.RazorSamples.ViewComponent.Basic
+namespace Knnithyanand.RazorSamples.ViewComponentBasic
 {
     public class Program
     {
